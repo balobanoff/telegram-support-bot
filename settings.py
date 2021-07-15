@@ -17,4 +17,4 @@ if TELEGRAM_SUPPORT_CHAT_ID is None or not str(TELEGRAM_SUPPORT_CHAT_ID).lstrip(
 TELEGRAM_SUPPORT_CHAT_ID = int(TELEGRAM_SUPPORT_CHAT_ID)
 
 
-WELCOME_MESSAGE = os.getenv("WELCOME_MESSAGE", "👋")
+WELCOME_MESSAGE = os.getenv("WELCOME_MESSAGE", "Здравстуйте! 🤖 Чем могу быть вам полезен?")
